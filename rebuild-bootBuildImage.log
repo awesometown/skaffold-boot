@@ -1,0 +1,119 @@
+./gradlew bootBuildImage
+
+> Task :bootBuildImage
+Building image 'docker.io/library/skaffold-boot:0.0.1-SNAPSHOT'
+
+ > Pulling builder image 'docker.io/paketobuildpacks/builder:base' ..................................................
+ > Pulled builder image 'paketobuildpacks/builder@sha256:7a79bf4ef2060c84631b72c3c4b6c300c43931f409b93621cccec6b3f5778de6'
+ > Pulling run image 'docker.io/paketobuildpacks/run:base-cnb' ..................................................
+ > Pulled run image 'paketobuildpacks/run@sha256:b1e8add4fc569e37085342cd05186d17cb81e128ee60fd9fd633337e25ac7808'
+ > Executing lifecycle version v0.13.1
+ > Using build cache volume 'pack-cache-7e490cc5476.build'
+
+ > Running creator
+    [creator]     ===> DETECTING
+    [creator]     6 of 19 buildpacks participating
+    [creator]     paketo-buildpacks/ca-certificates   3.0.1
+    [creator]     paketo-buildpacks/bellsoft-liberica 9.0.1
+    [creator]     paketo-buildpacks/syft              1.0.1
+    [creator]     paketo-buildpacks/executable-jar    6.0.1
+    [creator]     paketo-buildpacks/dist-zip          5.0.1
+    [creator]     paketo-buildpacks/spring-boot       5.1.0
+    [creator]     ===> ANALYZING
+    [creator]     Restoring metadata for "paketo-buildpacks/ca-certificates:helper" from app image
+    [creator]     Restoring metadata for "paketo-buildpacks/bellsoft-liberica:helper" from app image
+    [creator]     Restoring metadata for "paketo-buildpacks/bellsoft-liberica:java-security-properties" from app image
+    [creator]     Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jre" from app image
+    [creator]     Restoring metadata for "paketo-buildpacks/syft:syft" from cache
+    [creator]     Restoring metadata for "paketo-buildpacks/spring-boot:helper" from app image
+    [creator]     Restoring metadata for "paketo-buildpacks/spring-boot:spring-cloud-bindings" from app image
+    [creator]     Restoring metadata for "paketo-buildpacks/spring-boot:web-application-type" from app image
+    [creator]     ===> RESTORING
+    [creator]     Restoring data for "paketo-buildpacks/syft:syft" from cache
+    [creator]     ===> BUILDING
+    [creator]     
+    [creator]     Paketo CA Certificates Buildpack 3.0.1
+    [creator]       https://github.com/paketo-buildpacks/ca-certificates
+    [creator]       Launch Helper: Reusing cached layer
+    [creator]     
+    [creator]     Paketo BellSoft Liberica Buildpack 9.0.1
+    [creator]       https://github.com/paketo-buildpacks/bellsoft-liberica
+    [creator]       Build Configuration:
+    [creator]         $BP_JVM_TYPE                 JRE             the JVM type - JDK or JRE
+    [creator]         $BP_JVM_VERSION              11.*            the Java version
+    [creator]       Launch Configuration:
+    [creator]         $BPL_DEBUG_ENABLED           false           enables Java remote debugging support
+    [creator]         $BPL_DEBUG_PORT              8000            configure the remote debugging port
+    [creator]         $BPL_DEBUG_SUSPEND           false           configure whether to suspend execution until a debugger has attached
+    [creator]         $BPL_HEAP_DUMP_PATH                          write heap dumps on error to this path
+    [creator]         $BPL_JAVA_NMT_ENABLED        true            enables Java Native Memory Tracking (NMT)
+    [creator]         $BPL_JAVA_NMT_LEVEL          summary         configure level of NMT, summary or detail
+    [creator]         $BPL_JFR_ARGS                                configure custom Java Flight Recording (JFR) arguments
+    [creator]         $BPL_JFR_ENABLED             false           enables Java Flight Recording (JFR)
+    [creator]         $BPL_JMX_ENABLED             false           enables Java Management Extensions (JMX)
+    [creator]         $BPL_JMX_PORT                5000            configure the JMX port
+    [creator]         $BPL_JVM_HEAD_ROOM           0               the headroom in memory calculation
+    [creator]         $BPL_JVM_LOADED_CLASS_COUNT  35% of classes  the number of loaded classes in memory calculation
+    [creator]         $BPL_JVM_THREAD_COUNT        250             the number of threads in memory calculation
+    [creator]         $JAVA_TOOL_OPTIONS                           the JVM launch flags
+    [creator]       BellSoft Liberica JRE 11.0.13: Reusing cached layer
+    [creator]       Launch Helper: Reusing cached layer
+    [creator]       Java Security Properties: Reusing cached layer
+    [creator]     
+    [creator]     Paketo Syft Buildpack 1.0.1
+    [creator]       https://github.com/paketo-buildpacks/syft
+    [creator]     
+    [creator]     Paketo Executable JAR Buildpack 6.0.1
+    [creator]       https://github.com/paketo-buildpacks/executable-jar
+    [creator]       Class Path: Contributing to layer
+    [creator]         Writing env/CLASSPATH.delim
+    [creator]         Writing env/CLASSPATH.prepend
+    [creator]       Process types:
+    [creator]         executable-jar: java org.springframework.boot.loader.JarLauncher (direct)
+    [creator]         task:           java org.springframework.boot.loader.JarLauncher (direct)
+    [creator]         web:            java org.springframework.boot.loader.JarLauncher (direct)
+    [creator]     
+    [creator]     Paketo Spring Boot Buildpack 5.1.0
+    [creator]       https://github.com/paketo-buildpacks/spring-boot
+    [creator]       Creating slices from layers index
+    [creator]         dependencies
+    [creator]         spring-boot-loader
+    [creator]         snapshot-dependencies
+    [creator]         application
+    [creator]       Launch Helper: Reusing cached layer
+    [creator]       Spring Cloud Bindings 1.8.0: Reusing cached layer
+    [creator]       Web Application Type: Contributing to layer
+    [creator]         Servlet web application detected
+    [creator]         Writing env.launch/BPL_JVM_THREAD_COUNT.default
+    [creator]       4 application slices
+    [creator]       Image labels:
+    [creator]         org.springframework.boot.version
+    [creator]     ===> EXPORTING
+    [creator]     Reusing layer 'paketo-buildpacks/ca-certificates:helper'
+    [creator]     Reusing layer 'paketo-buildpacks/bellsoft-liberica:helper'
+    [creator]     Reusing layer 'paketo-buildpacks/bellsoft-liberica:java-security-properties'
+    [creator]     Reusing layer 'paketo-buildpacks/bellsoft-liberica:jre'
+    [creator]     Reusing layer 'paketo-buildpacks/executable-jar:classpath'
+    [creator]     Reusing layer 'paketo-buildpacks/spring-boot:helper'
+    [creator]     Reusing layer 'paketo-buildpacks/spring-boot:spring-cloud-bindings'
+    [creator]     Reusing layer 'paketo-buildpacks/spring-boot:web-application-type'
+    [creator]     Reusing 3/5 app layer(s)
+    [creator]     Adding 2/5 app layer(s)
+    [creator]     Reusing layer 'launcher'
+    [creator]     Reusing layer 'config'
+    [creator]     Reusing layer 'process-types'
+    [creator]     Adding label 'io.buildpacks.lifecycle.metadata'
+    [creator]     Adding label 'io.buildpacks.build.metadata'
+    [creator]     Adding label 'io.buildpacks.project.metadata'
+    [creator]     Adding label 'org.springframework.boot.version'
+    [creator]     Setting default process type 'web'
+    [creator]     Saving docker.io/library/skaffold-boot:0.0.1-SNAPSHOT...
+    [creator]     *** Images (fe553da75bb4):
+    [creator]           docker.io/library/skaffold-boot:0.0.1-SNAPSHOT
+    [creator]     Reusing cache layer 'paketo-buildpacks/syft:syft'
+
+Successfully built image 'docker.io/library/skaffold-boot:0.0.1-SNAPSHOT'
+
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 2 executed, 3 up-to-date

@@ -1,4 +1,19 @@
+Generating tags...
+ - skaffold-boot -> skaffold-boot:2ed1a68-dirty
+Checking cache...
+ - skaffold-boot: Not found. Building
+Starting build...
+Found [minikube] context, using local docker daemon.
 Building [skaffold-boot]...
+base: Pulling from paketobuildpacks/builder
+Digest: sha256:7a79bf4ef2060c84631b72c3c4b6c300c43931f409b93621cccec6b3f5778de6
+Status: Image is up to date for paketobuildpacks/builder:base
+base-cnb: Pulling from paketobuildpacks/run
+Digest: sha256:b1e8add4fc569e37085342cd05186d17cb81e128ee60fd9fd633337e25ac7808
+Status: Image is up to date for paketobuildpacks/run:base-cnb
+0.13.1: Pulling from buildpacksio/lifecycle
+Digest: sha256:f2cb410c8e204e6d2c6d86b1a171862595d8dccefc35197804eff09ab9221219
+Status: Image is up to date for buildpacksio/lifecycle:0.13.1
 ===> DETECTING
 [detector] 8 of 19 buildpacks participating
 [detector] paketo-buildpacks/ca-certificates   3.0.1
@@ -11,9 +26,9 @@ Building [skaffold-boot]...
 [detector] paketo-buildpacks/spring-boot       5.1.0
 ===> ANALYZING
 [analyzer] Restoring metadata for "paketo-buildpacks/ca-certificates:helper" from app image
+[analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jre" from app image
 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:helper" from app image
 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:java-security-properties" from app image
-[analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jre" from app image
 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jdk" from cache
 [analyzer] Restoring metadata for "paketo-buildpacks/syft:syft" from cache
 [analyzer] Restoring metadata for "paketo-buildpacks/gradle:application" from cache
@@ -27,11 +42,11 @@ Building [skaffold-boot]...
 [restorer] Restoring data for "paketo-buildpacks/gradle:application" from cache
 [restorer] Restoring data for "paketo-buildpacks/gradle:cache" from cache
 ===> BUILDING
-[builder]
+[builder] 
 [builder] Paketo CA Certificates Buildpack 3.0.1
 [builder]   https://github.com/paketo-buildpacks/ca-certificates
 [builder]   Launch Helper: Reusing cached layer
-[builder]
+[builder] 
 [builder] Paketo BellSoft Liberica Buildpack 9.0.1
 [builder]   https://github.com/paketo-buildpacks/bellsoft-liberica
 [builder]   Build Configuration:
@@ -56,10 +71,10 @@ Building [skaffold-boot]...
 [builder]   BellSoft Liberica JRE 11.0.13: Reusing cached layer
 [builder]   Launch Helper: Reusing cached layer
 [builder]   Java Security Properties: Reusing cached layer
-[builder]
+[builder] 
 [builder] Paketo Syft Buildpack 1.0.1
 [builder]   https://github.com/paketo-buildpacks/syft
-[builder]
+[builder] 
 [builder] Paketo Gradle Buildpack 6.0.1
 [builder]   https://github.com/paketo-buildpacks/gradle
 [builder]   Build Configuration:
@@ -70,7 +85,7 @@ Building [skaffold-boot]...
 [builder]   Compiled Application: Contributing to layer
 [builder]     Executing gradlew --no-daemon assemble
 [builder]       To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
-[builder]       Daemon will be stopped at the end of the build
+[builder]       Daemon will be stopped at the end of the build 
 [builder]       > Task :compileKotlin
 [builder]       > Task :compileJava NO-SOURCE
 [builder]       > Task :processResources
@@ -80,11 +95,11 @@ Building [skaffold-boot]...
 [builder]       > Task :inspectClassesForKotlinIC
 [builder]       > Task :jar
 [builder]       > Task :assemble
-[builder]
-[builder]       BUILD SUCCESSFUL in 51s
+[builder]       
+[builder]       BUILD SUCCESSFUL in 50s
 [builder]       6 actionable tasks: 6 executed
 [builder]   Removing source code
-[builder]
+[builder] 
 [builder] Paketo Executable JAR Buildpack 6.0.1
 [builder]   https://github.com/paketo-buildpacks/executable-jar
 [builder]   Class Path: Contributing to layer
@@ -94,7 +109,7 @@ Building [skaffold-boot]...
 [builder]     executable-jar: java org.springframework.boot.loader.JarLauncher (direct)
 [builder]     task:           java org.springframework.boot.loader.JarLauncher (direct)
 [builder]     web:            java org.springframework.boot.loader.JarLauncher (direct)
-[builder]
+[builder] 
 [builder] Paketo Spring Boot Buildpack 5.1.0
 [builder]   https://github.com/paketo-buildpacks/spring-boot
 [builder]   Creating slices from layers index
@@ -136,6 +151,3 @@ Building [skaffold-boot]...
 [exporter] Reusing cache layer 'paketo-buildpacks/syft:syft'
 [exporter] Adding cache layer 'paketo-buildpacks/gradle:application'
 [exporter] Adding cache layer 'paketo-buildpacks/gradle:cache'
-Tags used in deployment:
- - skaffold-boot -> skaffold-boot:8b274644ca8c09f5a57cdb9dae15656b496853a1ef819c8026c8ca6d84e2ec2c
-Starting deploy...
