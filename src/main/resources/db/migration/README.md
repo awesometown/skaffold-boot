@@ -1,0 +1,1 @@
+You can place any necessary SQL migration scripts in this directory for [Flyway](https://docs.spring.io/spring-boot/docs/2.5.5/reference/htmlsingle/#howto-execute-flyway-database-migrations-on-startup) to pickup.
