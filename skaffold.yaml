@@ -1,0 +1,28 @@
+apiVersion: skaffold/v2beta23
+kind: Config
+metadata:
+  name: skaffold-boot
+
+build:
+  local:
+    push: false
+  artifacts:
+    - image: skaffold-boot
+      context: .
+      jib: {}
+  #  - image: skaffold-boot
+  #    buildpacks:
+  #      builder: paketobuildpacks/builder:base
+
+deploy:
+  kubeContext: minikube
+  kustomize:
+    paths:
+      - k8s/local
+
+portForward:
+  - resourceType: deployment
+    resourceName: skaffold-boot
+    namespace: default
+    port: 8080
+    localPort: 8080 # *Optional*

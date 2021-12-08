@@ -7,6 +7,7 @@ plugins {
 	kotlin("plugin.spring") version "1.6.0"
 	kotlin("plugin.jpa") version "1.6.0"
 	id("io.gitlab.arturbosch.detekt") version "1.18.1"
+	id("com.google.cloud.tools.jib") version "3.1.4"
 }
 
 group = "com.example"
@@ -28,7 +29,6 @@ dependencies {
 	implementation("org.springframework.kafka:spring-kafka")
     runtimeOnly("ch.qos.logback.contrib:logback-json-classic:0.1.5")
     runtimeOnly("ch.qos.logback.contrib:logback-jackson:0.1.5")
-	runtimeOnly("io.micrometer:micrometer-registry-statsd")
 	runtimeOnly("com.h2database:h2")
 	testImplementation("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

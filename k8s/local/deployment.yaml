@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skaffold-boot
+  labels:
+    app.kubernetes.io/name: skaffold-boot
+    app.kubernetes.io/part-of: skaffold-boot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: skaffold-boot
+      app.kubernetes.io/part-of: skaffold-boot
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: skaffold-boot
+        app.kubernetes.io/part-of: skaffold-boot
+    spec:
+      containers:
+        - name: skaffold-boot
+          image: skaffold-boot
+          ports:
+            - containerPort: 8080
