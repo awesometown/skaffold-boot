@@ -7,12 +7,12 @@ build:
   local:
     push: false
   artifacts:
-    - image: skaffold-boot
-      context: .
-      jib: {}
-  #  - image: skaffold-boot
-  #    buildpacks:
-  #      builder: paketobuildpacks/builder:base
+    # - image: skaffold-boot
+    #   context: .
+    #   jib: {}
+   - image: skaffold-boot
+     buildpacks:
+       builder: paketobuildpacks/builder:base
 
 deploy:
   kubeContext: minikube
@@ -25,4 +25,4 @@ portForward:
     resourceName: skaffold-boot
     namespace: default
     port: 8080
-    localPort: 8080 # *Optional*
+    localPort: 8080
