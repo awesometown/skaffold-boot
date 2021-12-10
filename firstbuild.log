@@ -1,0 +1,582 @@
+2021-12-10 09:15:56 Generating tags...
+2021-12-10 09:15:56  - skaffold-boot -> 2021-12-10 09:15:56 skaffold-boot:feafb1a-dirty
+2021-12-10 09:15:56 Checking cache...
+2021-12-10 09:15:57  - skaffold-boot: 2021-12-10 09:15:57 Not found. Building
+2021-12-10 09:15:57 Starting build...
+2021-12-10 09:15:57 Building [skaffold-boot]...
+2021-12-10 09:16:00 base: 2021-12-10 09:16:00 Pulling from paketobuildpacks/builder
+2021-12-10 09:16:00 bf99a8b93828: 2021-12-10 09:16:00 Already exists
+2021-12-10 09:16:00 deeadc8adad8: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 980f082b7409: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 3bc8479ffbf8: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0b21fe1e0bd5: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 357fefdf9bc9: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 d9d5783cd0f5: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 76ad24912e2d: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 3cb5af1341ea: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0b21fe1e0bd5: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 76ad24912e2d: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 d9d5783cd0f5: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 df1e8a528dca: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 3cb5af1341ea: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 33a859de9c05: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0e916235e9e3: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 df1e8a528dca: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 3d33288718c5: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 33a859de9c05: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 8e533e08ca79: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0e916235e9e3: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 e81d612eb4d5: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0ed0730e197a: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 e81d612eb4d5: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 28a576fa24c6: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0ed0730e197a: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 f390ab2bcb13: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 82bbc6547242: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 28a576fa24c6: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 7df99ff5762d: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 b86b4a8203e8: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 82bbc6547242: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 7df99ff5762d: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 b86b4a8203e8: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 c8d467c7a563: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 63c739c881c1: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 1a98ac416f2b: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 63c739c881c1: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 e9036ffe056c: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 998a1259c562: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 4a05a1d24566: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 e9036ffe056c: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 1a98ac416f2b: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 c537db68852e: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 b710ab38cf5c: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 4a05a1d24566: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 c537db68852e: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 a85a1e071a0a: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 89354141f142: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 257f9e6b86d5: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 c4cd6bda9e58: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 b710ab38cf5c: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 27b3c1e6c6c0: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 257f9e6b86d5: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 235f404532b8: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 89354141f142: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 c4cd6bda9e58: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 a85a1e071a0a: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 27b3c1e6c6c0: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 235f404532b8: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 e8016f489b63: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 8078b62c469e: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 e8016f489b63: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 3fe6facab1ea: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 85039e523c75: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 8910030f7de2: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 f9360f224f17: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 825c7d75e868: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 8078b62c469e: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 005f2c8eee27: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 0f0a615abb4c: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 b1ac833a8396: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 95e3ff505447: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 a7ee30bc3925: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 825c7d75e868: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 6cb5026145d5: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 140ad64d0921: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 3fe6facab1ea: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 584150653ca8: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 8d784b9bc085: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 85039e523c75: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 b1ac833a8396: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 dfb9d49ab5cf: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 dd0c289fc1ce: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 005f2c8eee27: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 0f0a615abb4c: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 4538ca6825f4: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 c1e488568aac: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 6cb5026145d5: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 95e3ff505447: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 140ad64d0921: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 584150653ca8: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 a7ee30bc3925: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 8d784b9bc085: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 dd0c289fc1ce: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 61d74054c7a7: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 79fc5d32f411: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 26d802fc7ee0: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 602115215d12: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 79e132333583: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 61d74054c7a7: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 a950be3e3742: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 4b77f3900ec2: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 c1e488568aac: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 fca9f4eb082e: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 79fc5d32f411: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 b560f247c5a6: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 a84da2cf9581: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 79e132333583: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 ee4d971fe0b9: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 24a7fca13290: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 602115215d12: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 78f5ddae766a: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 fda485a8c808: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 26d802fc7ee0: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 7f4baf2174af: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 af7db75be2d6: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 fca9f4eb082e: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 b560f247c5a6: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 4b77f3900ec2: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 24a7fca13290: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 ee4d971fe0b9: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 7f4baf2174af: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 af7db75be2d6: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 104ea0d7f784: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 f58d0ea36c8c: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 a84da2cf9581: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 ab79b427de54: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 fda485a8c808: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 161ef8b453f9: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 4fe5862acf96: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 ba4e0197830f: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 e87cbae54560: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 f58d0ea36c8c: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 b43c41e17792: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 5e248c982a68: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 d2477d166601: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 1ba79ae10963: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 c9131540cd9f: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 72ad9888618d: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 4f4fb700ef54: 2021-12-10 09:16:00 Pulling fs layer
+2021-12-10 09:16:00 1ba79ae10963: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 c9131540cd9f: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 4f4fb700ef54: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 ba4e0197830f: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 72ad9888618d: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 161ef8b453f9: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 ab79b427de54: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 e87cbae54560: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 4fe5862acf96: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:00 d2477d166601: 2021-12-10 09:16:00 Waiting
+2021-12-10 09:16:01 deeadc8adad8: 2021-12-10 09:16:01 Verifying Checksum
+2021-12-10 09:16:01 deeadc8adad8: 2021-12-10 09:16:01 Download complete
+2021-12-10 09:16:01 deeadc8adad8: 2021-12-10 09:16:01 Pull complete
+2021-12-10 09:16:05 0b21fe1e0bd5: 2021-12-10 09:16:05 Verifying Checksum
+2021-12-10 09:16:05 0b21fe1e0bd5: 2021-12-10 09:16:05 Download complete
+2021-12-10 09:16:05 3bc8479ffbf8: 2021-12-10 09:16:05 Verifying Checksum
+2021-12-10 09:16:05 3bc8479ffbf8: 2021-12-10 09:16:05 Download complete
+2021-12-10 09:16:05 357fefdf9bc9: 2021-12-10 09:16:05 Verifying Checksum
+2021-12-10 09:16:05 357fefdf9bc9: 2021-12-10 09:16:05 Download complete
+2021-12-10 09:16:10 76ad24912e2d: 2021-12-10 09:16:10 Verifying Checksum
+2021-12-10 09:16:10 76ad24912e2d: 2021-12-10 09:16:10 Download complete
+2021-12-10 09:16:11 d9d5783cd0f5: 2021-12-10 09:16:11 Verifying Checksum
+2021-12-10 09:16:11 d9d5783cd0f5: 2021-12-10 09:16:11 Download complete
+2021-12-10 09:16:13 3cb5af1341ea: 2021-12-10 09:16:13 Verifying Checksum
+2021-12-10 09:16:13 3cb5af1341ea: 2021-12-10 09:16:13 Download complete
+2021-12-10 09:16:16 df1e8a528dca: 2021-12-10 09:16:16 Verifying Checksum
+2021-12-10 09:16:16 df1e8a528dca: 2021-12-10 09:16:16 Download complete
+2021-12-10 09:16:16 33a859de9c05: 2021-12-10 09:16:16 Download complete
+2021-12-10 09:16:18 3d33288718c5: 2021-12-10 09:16:18 Verifying Checksum
+2021-12-10 09:16:18 3d33288718c5: 2021-12-10 09:16:18 Download complete
+2021-12-10 09:16:18 0e916235e9e3: 2021-12-10 09:16:18 Verifying Checksum
+2021-12-10 09:16:18 0e916235e9e3: 2021-12-10 09:16:18 Download complete
+2021-12-10 09:16:21 e81d612eb4d5: 2021-12-10 09:16:21 Verifying Checksum
+2021-12-10 09:16:21 e81d612eb4d5: 2021-12-10 09:16:21 Download complete
+2021-12-10 09:16:21 8e533e08ca79: 2021-12-10 09:16:21 Verifying Checksum
+2021-12-10 09:16:21 8e533e08ca79: 2021-12-10 09:16:21 Download complete
+2021-12-10 09:16:22 28a576fa24c6: 2021-12-10 09:16:22 Download complete
+2021-12-10 09:16:24 0ed0730e197a: 2021-12-10 09:16:24 Verifying Checksum
+2021-12-10 09:16:24 0ed0730e197a: 2021-12-10 09:16:24 Download complete
+2021-12-10 09:16:25 f390ab2bcb13: 2021-12-10 09:16:25 Verifying Checksum
+2021-12-10 09:16:25 82bbc6547242: 2021-12-10 09:16:25 Verifying Checksum
+2021-12-10 09:16:25 82bbc6547242: 2021-12-10 09:16:25 Download complete
+2021-12-10 09:16:26 7df99ff5762d: 2021-12-10 09:16:26 Verifying Checksum
+2021-12-10 09:16:26 7df99ff5762d: 2021-12-10 09:16:26 Download complete
+2021-12-10 09:16:29 b86b4a8203e8: 2021-12-10 09:16:29 Verifying Checksum
+2021-12-10 09:16:29 b86b4a8203e8: 2021-12-10 09:16:29 Download complete
+2021-12-10 09:16:29 c8d467c7a563: 2021-12-10 09:16:29 Download complete
+2021-12-10 09:16:31 63c739c881c1: 2021-12-10 09:16:31 Verifying Checksum
+2021-12-10 09:16:31 63c739c881c1: 2021-12-10 09:16:31 Download complete
+2021-12-10 09:16:32 1a98ac416f2b: 2021-12-10 09:16:32 Verifying Checksum
+2021-12-10 09:16:32 1a98ac416f2b: 2021-12-10 09:16:32 Download complete
+2021-12-10 09:16:33 e9036ffe056c: 2021-12-10 09:16:33 Verifying Checksum
+2021-12-10 09:16:33 e9036ffe056c: 2021-12-10 09:16:33 Download complete
+2021-12-10 09:16:34 998a1259c562: 2021-12-10 09:16:34 Verifying Checksum
+2021-12-10 09:16:34 998a1259c562: 2021-12-10 09:16:34 Download complete
+2021-12-10 09:16:35 4a05a1d24566: 2021-12-10 09:16:35 Verifying Checksum
+2021-12-10 09:16:35 4a05a1d24566: 2021-12-10 09:16:35 Download complete
+2021-12-10 09:16:36 c537db68852e: 2021-12-10 09:16:36 Verifying Checksum
+2021-12-10 09:16:36 c537db68852e: 2021-12-10 09:16:36 Download complete
+2021-12-10 09:16:37 b710ab38cf5c: 2021-12-10 09:16:37 Verifying Checksum
+2021-12-10 09:16:37 b710ab38cf5c: 2021-12-10 09:16:37 Download complete
+2021-12-10 09:16:37 a85a1e071a0a: 2021-12-10 09:16:37 Download complete
+2021-12-10 09:16:38 89354141f142: 2021-12-10 09:16:38 Download complete
+2021-12-10 09:16:39 257f9e6b86d5: 2021-12-10 09:16:39 Verifying Checksum
+2021-12-10 09:16:39 257f9e6b86d5: 2021-12-10 09:16:39 Download complete
+2021-12-10 09:16:40 c4cd6bda9e58: 2021-12-10 09:16:40 Verifying Checksum
+2021-12-10 09:16:40 c4cd6bda9e58: 2021-12-10 09:16:40 Download complete
+2021-12-10 09:16:40 27b3c1e6c6c0: 2021-12-10 09:16:40 Verifying Checksum
+2021-12-10 09:16:40 27b3c1e6c6c0: 2021-12-10 09:16:40 Download complete
+2021-12-10 09:16:41 235f404532b8: 2021-12-10 09:16:41 Verifying Checksum
+2021-12-10 09:16:41 235f404532b8: 2021-12-10 09:16:41 Download complete
+2021-12-10 09:16:42 e8016f489b63: 2021-12-10 09:16:42 Verifying Checksum
+2021-12-10 09:16:42 e8016f489b63: 2021-12-10 09:16:42 Download complete
+2021-12-10 09:16:45 8078b62c469e: 2021-12-10 09:16:45 Verifying Checksum
+2021-12-10 09:16:45 8078b62c469e: 2021-12-10 09:16:45 Download complete
+2021-12-10 09:16:45 3fe6facab1ea: 2021-12-10 09:16:45 Verifying Checksum
+2021-12-10 09:16:45 3fe6facab1ea: 2021-12-10 09:16:45 Download complete
+2021-12-10 09:16:47 85039e523c75: 2021-12-10 09:16:47 Download complete
+2021-12-10 09:16:48 8910030f7de2: 2021-12-10 09:16:48 Verifying Checksum
+2021-12-10 09:16:48 8910030f7de2: 2021-12-10 09:16:48 Download complete
+2021-12-10 09:16:49 825c7d75e868: 2021-12-10 09:16:49 Verifying Checksum
+2021-12-10 09:16:49 825c7d75e868: 2021-12-10 09:16:49 Download complete
+2021-12-10 09:16:50 f9360f224f17: 2021-12-10 09:16:50 Download complete
+2021-12-10 09:16:51 980f082b7409: 2021-12-10 09:16:51 Verifying Checksum
+2021-12-10 09:16:51 980f082b7409: 2021-12-10 09:16:51 Download complete
+2021-12-10 09:16:51 005f2c8eee27: 2021-12-10 09:16:51 Verifying Checksum
+2021-12-10 09:16:51 005f2c8eee27: 2021-12-10 09:16:51 Download complete
+2021-12-10 09:16:53 0f0a615abb4c: 2021-12-10 09:16:53 Verifying Checksum
+2021-12-10 09:16:53 0f0a615abb4c: 2021-12-10 09:16:53 Download complete
+2021-12-10 09:16:53 b1ac833a8396: 2021-12-10 09:16:53 Verifying Checksum
+2021-12-10 09:16:53 b1ac833a8396: 2021-12-10 09:16:53 Download complete
+2021-12-10 09:16:54 a7ee30bc3925: 2021-12-10 09:16:54 Download complete
+2021-12-10 09:16:54 95e3ff505447: 2021-12-10 09:16:54 Download complete
+2021-12-10 09:16:54 980f082b7409: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 3bc8479ffbf8: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 0b21fe1e0bd5: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 357fefdf9bc9: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 d9d5783cd0f5: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 76ad24912e2d: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 6cb5026145d5: 2021-12-10 09:16:54 Verifying Checksum
+2021-12-10 09:16:54 6cb5026145d5: 2021-12-10 09:16:54 Download complete
+2021-12-10 09:16:54 3cb5af1341ea: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:54 df1e8a528dca: 2021-12-10 09:16:54 Pull complete
+2021-12-10 09:16:55 33a859de9c05: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 0e916235e9e3: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 3d33288718c5: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 8e533e08ca79: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 140ad64d0921: 2021-12-10 09:16:55 Verifying Checksum
+2021-12-10 09:16:55 140ad64d0921: 2021-12-10 09:16:55 Download complete
+2021-12-10 09:16:55 e81d612eb4d5: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 0ed0730e197a: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 28a576fa24c6: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 584150653ca8: 2021-12-10 09:16:55 Download complete
+2021-12-10 09:16:55 f390ab2bcb13: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 82bbc6547242: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 7df99ff5762d: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:55 b86b4a8203e8: 2021-12-10 09:16:55 Pull complete
+2021-12-10 09:16:56 c8d467c7a563: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 63c739c881c1: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 dfb9d49ab5cf: 2021-12-10 09:16:56 Verifying Checksum
+2021-12-10 09:16:56 dfb9d49ab5cf: 2021-12-10 09:16:56 Download complete
+2021-12-10 09:16:56 1a98ac416f2b: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 dd0c289fc1ce: 2021-12-10 09:16:56 Download complete
+2021-12-10 09:16:56 e9036ffe056c: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 998a1259c562: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 4a05a1d24566: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 c537db68852e: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 b710ab38cf5c: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 a85a1e071a0a: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:56 89354141f142: 2021-12-10 09:16:56 Pull complete
+2021-12-10 09:16:57 257f9e6b86d5: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 c4cd6bda9e58: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 27b3c1e6c6c0: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 235f404532b8: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 e8016f489b63: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 8d784b9bc085: 2021-12-10 09:16:57 Download complete
+2021-12-10 09:16:57 8078b62c469e: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 3fe6facab1ea: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 85039e523c75: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 8910030f7de2: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:57 f9360f224f17: 2021-12-10 09:16:57 Pull complete
+2021-12-10 09:16:58 825c7d75e868: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 005f2c8eee27: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 0f0a615abb4c: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 b1ac833a8396: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 95e3ff505447: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 a7ee30bc3925: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 6cb5026145d5: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 140ad64d0921: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 584150653ca8: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:58 8d784b9bc085: 2021-12-10 09:16:58 Pull complete
+2021-12-10 09:16:59 dfb9d49ab5cf: 2021-12-10 09:16:59 Pull complete
+2021-12-10 09:16:59 dd0c289fc1ce: 2021-12-10 09:16:59 Pull complete
+2021-12-10 09:16:59 c1e488568aac: 2021-12-10 09:16:59 Verifying Checksum
+2021-12-10 09:16:59 c1e488568aac: 2021-12-10 09:16:59 Download complete
+2021-12-10 09:16:59 4538ca6825f4: 2021-12-10 09:16:59 Verifying Checksum
+2021-12-10 09:16:59 4538ca6825f4: 2021-12-10 09:16:59 Pull complete
+2021-12-10 09:16:59 c1e488568aac: 2021-12-10 09:16:59 Pull complete
+2021-12-10 09:16:59 61d74054c7a7: 2021-12-10 09:16:59 Download complete
+2021-12-10 09:16:59 61d74054c7a7: 2021-12-10 09:16:59 Pull complete
+2021-12-10 09:17:00 79fc5d32f411: 2021-12-10 09:17:00 Verifying Checksum
+2021-12-10 09:17:00 79fc5d32f411: 2021-12-10 09:17:00 Download complete
+2021-12-10 09:17:00 79fc5d32f411: 2021-12-10 09:17:00 Pull complete
+2021-12-10 09:17:01 26d802fc7ee0: 2021-12-10 09:17:01 Verifying Checksum
+2021-12-10 09:17:01 26d802fc7ee0: 2021-12-10 09:17:01 Download complete
+2021-12-10 09:17:01 602115215d12: 2021-12-10 09:17:01 Verifying Checksum
+2021-12-10 09:17:01 602115215d12: 2021-12-10 09:17:01 Download complete
+2021-12-10 09:17:01 26d802fc7ee0: 2021-12-10 09:17:01 Pull complete
+2021-12-10 09:17:01 602115215d12: 2021-12-10 09:17:01 Pull complete
+2021-12-10 09:17:01 79e132333583: 2021-12-10 09:17:01 Verifying Checksum
+2021-12-10 09:17:01 79e132333583: 2021-12-10 09:17:01 Download complete
+2021-12-10 09:17:01 79e132333583: 2021-12-10 09:17:01 Pull complete
+2021-12-10 09:17:02 a950be3e3742: 2021-12-10 09:17:02 Download complete
+2021-12-10 09:17:02 a950be3e3742: 2021-12-10 09:17:02 Pull complete
+2021-12-10 09:17:02 4b77f3900ec2: 2021-12-10 09:17:02 Download complete
+2021-12-10 09:17:02 4b77f3900ec2: 2021-12-10 09:17:02 Pull complete
+2021-12-10 09:17:03 fca9f4eb082e: 2021-12-10 09:17:03 Download complete
+2021-12-10 09:17:03 fca9f4eb082e: 2021-12-10 09:17:03 Pull complete
+2021-12-10 09:17:03 a84da2cf9581: 2021-12-10 09:17:03 Verifying Checksum
+2021-12-10 09:17:03 a84da2cf9581: 2021-12-10 09:17:03 Download complete
+2021-12-10 09:17:03 b560f247c5a6: 2021-12-10 09:17:03 Verifying Checksum
+2021-12-10 09:17:03 b560f247c5a6: 2021-12-10 09:17:03 Pull complete
+2021-12-10 09:17:03 a84da2cf9581: 2021-12-10 09:17:03 Pull complete
+2021-12-10 09:17:05 ee4d971fe0b9: 2021-12-10 09:17:05 Verifying Checksum
+2021-12-10 09:17:05 ee4d971fe0b9: 2021-12-10 09:17:05 Download complete
+2021-12-10 09:17:05 ee4d971fe0b9: 2021-12-10 09:17:05 Pull complete
+2021-12-10 09:17:05 78f5ddae766a: 2021-12-10 09:17:05 Verifying Checksum
+2021-12-10 09:17:05 78f5ddae766a: 2021-12-10 09:17:05 Download complete
+2021-12-10 09:17:05 24a7fca13290: 2021-12-10 09:17:05 Verifying Checksum
+2021-12-10 09:17:05 24a7fca13290: 2021-12-10 09:17:05 Download complete
+2021-12-10 09:17:06 24a7fca13290: 2021-12-10 09:17:06 Pull complete
+2021-12-10 09:17:06 78f5ddae766a: 2021-12-10 09:17:06 Pull complete
+2021-12-10 09:17:06 fda485a8c808: 2021-12-10 09:17:06 Verifying Checksum
+2021-12-10 09:17:06 fda485a8c808: 2021-12-10 09:17:06 Download complete
+2021-12-10 09:17:06 fda485a8c808: 2021-12-10 09:17:06 Pull complete
+2021-12-10 09:17:06 7f4baf2174af: 2021-12-10 09:17:06 Download complete
+2021-12-10 09:17:07 7f4baf2174af: 2021-12-10 09:17:07 Pull complete
+2021-12-10 09:17:07 af7db75be2d6: 2021-12-10 09:17:07 Download complete
+2021-12-10 09:17:07 af7db75be2d6: 2021-12-10 09:17:07 Pull complete
+2021-12-10 09:17:07 f58d0ea36c8c: 2021-12-10 09:17:07 Download complete
+2021-12-10 09:17:08 104ea0d7f784: 2021-12-10 09:17:08 Verifying Checksum
+2021-12-10 09:17:08 104ea0d7f784: 2021-12-10 09:17:08 Download complete
+2021-12-10 09:17:08 104ea0d7f784: 2021-12-10 09:17:08 Pull complete
+2021-12-10 09:17:08 f58d0ea36c8c: 2021-12-10 09:17:08 Pull complete
+2021-12-10 09:17:09 ab79b427de54: 2021-12-10 09:17:09 Verifying Checksum
+2021-12-10 09:17:09 ab79b427de54: 2021-12-10 09:17:09 Download complete
+2021-12-10 09:17:09 ab79b427de54: 2021-12-10 09:17:09 Pull complete
+2021-12-10 09:17:09 161ef8b453f9: 2021-12-10 09:17:09 Verifying Checksum
+2021-12-10 09:17:09 161ef8b453f9: 2021-12-10 09:17:09 Download complete
+2021-12-10 09:17:09 161ef8b453f9: 2021-12-10 09:17:09 Pull complete
+2021-12-10 09:17:09 4fe5862acf96: 2021-12-10 09:17:09 Verifying Checksum
+2021-12-10 09:17:10 4fe5862acf96: 2021-12-10 09:17:10 Pull complete
+2021-12-10 09:17:10 ba4e0197830f: 2021-12-10 09:17:10 Verifying Checksum
+2021-12-10 09:17:10 ba4e0197830f: 2021-12-10 09:17:10 Download complete
+2021-12-10 09:17:11 ba4e0197830f: 2021-12-10 09:17:11 Pull complete
+2021-12-10 09:17:11 e87cbae54560: 2021-12-10 09:17:11 Download complete
+2021-12-10 09:17:11 e87cbae54560: 2021-12-10 09:17:11 Pull complete
+2021-12-10 09:17:11 b43c41e17792: 2021-12-10 09:17:11 Verifying Checksum
+2021-12-10 09:17:11 b43c41e17792: 2021-12-10 09:17:11 Download complete
+2021-12-10 09:17:11 b43c41e17792: 2021-12-10 09:17:11 Pull complete
+2021-12-10 09:17:13 5e248c982a68: 2021-12-10 09:17:13 Verifying Checksum
+2021-12-10 09:17:13 5e248c982a68: 2021-12-10 09:17:13 Download complete
+2021-12-10 09:17:13 5e248c982a68: 2021-12-10 09:17:13 Pull complete
+2021-12-10 09:17:14 d2477d166601: 2021-12-10 09:17:14 Verifying Checksum
+2021-12-10 09:17:14 d2477d166601: 2021-12-10 09:17:14 Download complete
+2021-12-10 09:17:14 d2477d166601: 2021-12-10 09:17:14 Pull complete
+2021-12-10 09:17:14 1ba79ae10963: 2021-12-10 09:17:14 Verifying Checksum
+2021-12-10 09:17:14 1ba79ae10963: 2021-12-10 09:17:14 Pull complete
+2021-12-10 09:17:14 c9131540cd9f: 2021-12-10 09:17:14 Verifying Checksum
+2021-12-10 09:17:14 c9131540cd9f: 2021-12-10 09:17:14 Download complete
+2021-12-10 09:17:14 c9131540cd9f: 2021-12-10 09:17:14 Pull complete
+2021-12-10 09:17:15 4f4fb700ef54: 2021-12-10 09:17:15 Verifying Checksum
+2021-12-10 09:17:15 4f4fb700ef54: 2021-12-10 09:17:15 Download complete
+2021-12-10 09:17:15 72ad9888618d: 2021-12-10 09:17:15 Pull complete
+2021-12-10 09:17:15 4f4fb700ef54: 2021-12-10 09:17:15 Pull complete
+2021-12-10 09:17:15 Digest: sha256:c362770f7a40377bb787adcf8e13eed236c33a473b5b42c154553eff01ae2b84
+2021-12-10 09:17:15 Status: Downloaded newer image for paketobuildpacks/builder:base
+2021-12-10 09:17:16 base-cnb: 2021-12-10 09:17:16 Pulling from paketobuildpacks/run
+2021-12-10 09:17:16 bf99a8b93828: 2021-12-10 09:17:16 Already exists
+2021-12-10 09:17:16 7493503d7cc9: 2021-12-10 09:17:16 Pulling fs layer
+2021-12-10 09:17:16 4e0e1f6c20fc: 2021-12-10 09:17:16 Pulling fs layer
+2021-12-10 09:17:16 7244b6e0991b: 2021-12-10 09:17:16 Pulling fs layer
+2021-12-10 09:17:17 7493503d7cc9: 2021-12-10 09:17:17 Download complete
+2021-12-10 09:17:17 7493503d7cc9: 2021-12-10 09:17:17 Pull complete
+2021-12-10 09:17:17 7244b6e0991b: 2021-12-10 09:17:17 Download complete
+2021-12-10 09:17:19 4e0e1f6c20fc: 2021-12-10 09:17:19 Verifying Checksum
+2021-12-10 09:17:19 4e0e1f6c20fc: 2021-12-10 09:17:19 Download complete
+2021-12-10 09:17:19 4e0e1f6c20fc: 2021-12-10 09:17:19 Pull complete
+2021-12-10 09:17:19 7244b6e0991b: 2021-12-10 09:17:19 Pull complete
+2021-12-10 09:17:19 Digest: sha256:f9e78e309fe5af1d376d3ce4593e3d25260604e4a62430dad7ec65b11289cf89
+2021-12-10 09:17:19 Status: Downloaded newer image for paketobuildpacks/run:base-cnb
+2021-12-10 09:17:22 0.13.1: 2021-12-10 09:17:22 Pulling from buildpacksio/lifecycle
+2021-12-10 09:17:22 e8614d09b7be: 2021-12-10 09:17:22 Already exists
+2021-12-10 09:17:22 68e25e08d33d: 2021-12-10 09:17:22 Pulling fs layer
+2021-12-10 09:17:24 68e25e08d33d: 2021-12-10 09:17:24 Verifying Checksum
+2021-12-10 09:17:24 68e25e08d33d: 2021-12-10 09:17:24 Download complete
+2021-12-10 09:17:24 68e25e08d33d: 2021-12-10 09:17:24 Pull complete
+2021-12-10 09:17:24 Digest: sha256:f2cb410c8e204e6d2c6d86b1a171862595d8dccefc35197804eff09ab9221219
+2021-12-10 09:17:24 Status: Downloaded newer image for buildpacksio/lifecycle:0.13.1
+2021-12-10 09:17:24 ===> DETECTING
+2021-12-10 09:17:25 [detector] 8 of 19 buildpacks participating
+2021-12-10 09:17:25 [detector] paketo-buildpacks/ca-certificates   3.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/bellsoft-liberica 9.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/syft              1.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/gradle            6.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/executable-jar    6.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/apache-tomcat     7.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/dist-zip          5.0.1
+2021-12-10 09:17:25 [detector] paketo-buildpacks/spring-boot       5.1.0
+2021-12-10 09:17:25 ===> ANALYZING
+2021-12-10 09:17:26 [analyzer] Previous image with name "skaffold-boot:latest" not found
+2021-12-10 09:17:26 ===> RESTORING
+2021-12-10 09:17:27 ===> BUILDING
+2021-12-10 09:17:27 [builder] [34m[0m
+2021-12-10 09:17:27 [builder] [34m[1mPaketo CA Certificates Buildpack[0m[34m 3.0.1[0m
+2021-12-10 09:17:27 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/ca-certificates[0m
+2021-12-10 09:17:27 [builder]   [34mLaunch Helper[0m: [33mContributing[0m to layer
+2021-12-10 09:17:27 [builder] [2m    Creating /layers/paketo-buildpacks_ca-certificates/helper/exec.d/ca-certificates-helper[0m
+2021-12-10 09:17:27 [builder] [34m[0m
+2021-12-10 09:17:27 [builder] [34m[1mPaketo BellSoft Liberica Buildpack[0m[34m 9.0.1[0m
+2021-12-10 09:17:27 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/bellsoft-liberica[0m
+2021-12-10 09:17:27 [builder]   [2mBuild Configuration:[0m
+2021-12-10 09:17:27 [builder] [2m    $BP_JVM_TYPE                 JRE             the JVM type - JDK or JRE[0m
+2021-12-10 09:17:27 [builder] [2m    $BP_JVM_VERSION              11              the Java version[0m
+2021-12-10 09:17:27 [builder]   [2mLaunch Configuration:[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_DEBUG_ENABLED           false           enables Java remote debugging support[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_DEBUG_PORT              8000            configure the remote debugging port[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_DEBUG_SUSPEND           false           configure whether to suspend execution until a debugger has attached[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_HEAP_DUMP_PATH                          write heap dumps on error to this path[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JAVA_NMT_ENABLED        true            enables Java Native Memory Tracking (NMT)[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JAVA_NMT_LEVEL          summary         configure level of NMT, summary or detail[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JFR_ARGS                                configure custom Java Flight Recording (JFR) arguments[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JFR_ENABLED             false           enables Java Flight Recording (JFR)[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JMX_ENABLED             false           enables Java Management Extensions (JMX)[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JMX_PORT                5000            configure the JMX port[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JVM_HEAD_ROOM           0               the headroom in memory calculation[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JVM_LOADED_CLASS_COUNT  35% of classes  the number of loaded classes in memory calculation[0m
+2021-12-10 09:17:27 [builder] [2m    $BPL_JVM_THREAD_COUNT        250             the number of threads in memory calculation[0m
+2021-12-10 09:17:27 [builder] [2m    $JAVA_TOOL_OPTIONS                           the JVM launch flags[0m
+2021-12-10 09:17:27 [builder]   [34mBellSoft Liberica JDK 11.0.13[0m: [33mContributing[0m to layer
+2021-12-10 09:17:27 [builder] [2m    [33mDownloading[0m[2m from https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jdk11.0.13+8-linux-amd64.tar.gz[0m
+2021-12-10 09:18:04 [builder] [2m    Verifying checksum[0m
+2021-12-10 09:18:05 [builder] [2m    Expanding to /layers/paketo-buildpacks_bellsoft-liberica/jdk[0m
+2021-12-10 09:18:08 [builder] [2m    Adding 128 container CA certificates to JVM truststore[0m
+2021-12-10 09:18:08 [builder] [2m    Writing env.build/JAVA_HOME.override[0m
+2021-12-10 09:18:08 [builder] [2m    Writing env.build/JDK_HOME.override[0m
+2021-12-10 09:18:08 [builder]   [34mBellSoft Liberica JRE 11.0.13[0m: [33mContributing[0m to layer
+2021-12-10 09:18:08 [builder] [2m    [33mDownloading[0m[2m from https://github.com/bell-sw/Liberica/releases/download/11.0.13+8/bellsoft-jre11.0.13+8-linux-amd64.tar.gz[0m
+2021-12-10 09:18:19 [builder] [2m    Verifying checksum[0m
+2021-12-10 09:18:19 [builder] [2m    Expanding to /layers/paketo-buildpacks_bellsoft-liberica/jre[0m
+2021-12-10 09:18:20 [builder] [2m    Adding 128 container CA certificates to JVM truststore[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/BPI_APPLICATION_PATH.default[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/BPI_JVM_CACERTS.default[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/BPI_JVM_CLASS_COUNT.default[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/BPI_JVM_SECURITY_PROVIDERS.default[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/JAVA_HOME.default[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/JAVA_TOOL_OPTIONS.append[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/JAVA_TOOL_OPTIONS.delim[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/MALLOC_ARENA_MAX.default[0m
+2021-12-10 09:18:21 [builder]   [34mLaunch Helper[0m: [33mContributing[0m to layer
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/active-processor-count[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/java-opts[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jvm-heap[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/link-local-dns[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/memory-calculator[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/openssl-certificate-loader[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-configurer[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jmx[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/jfr[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/nmt[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/security-providers-classpath-9[0m
+2021-12-10 09:18:21 [builder] [2m    Creating /layers/paketo-buildpacks_bellsoft-liberica/helper/exec.d/debug-9[0m
+2021-12-10 09:18:21 [builder]   [34mJava Security Properties[0m: [33mContributing[0m to layer
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/JAVA_SECURITY_PROPERTIES.default[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/JAVA_TOOL_OPTIONS.append[0m
+2021-12-10 09:18:21 [builder] [2m    Writing env.launch/JAVA_TOOL_OPTIONS.delim[0m
+2021-12-10 09:18:21 [builder] [34m[0m
+2021-12-10 09:18:21 [builder] [34m[1mPaketo Syft Buildpack[0m[34m 1.0.1[0m
+2021-12-10 09:18:21 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/syft[0m
+2021-12-10 09:18:21 [builder] [2m    [33mDownloading[0m[2m from https://github.com/anchore/syft/releases/download/v0.30.1/syft_0.30.1_linux_amd64.tar.gz[0m
+2021-12-10 09:18:23 [builder] [2m    Verifying checksum[0m
+2021-12-10 09:18:23 [builder] [34m[0m
+2021-12-10 09:18:23 [builder] [34m[1mPaketo Gradle Buildpack[0m[34m 6.0.1[0m
+2021-12-10 09:18:23 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/gradle[0m
+2021-12-10 09:18:23 [builder]   [2mBuild Configuration:[0m
+2021-12-10 09:18:23 [builder] [2m    $BP_GRADLE_BUILD_ARGUMENTS  --no-daemon assemble  the arguments to pass to Gradle[0m
+2021-12-10 09:18:23 [builder] [2m    $BP_GRADLE_BUILT_ARTIFACT   build/libs/*.[jw]ar   the built application artifact explicitly.  Supersedes $BP_GRADLE_BUILT_MODULE[0m
+2021-12-10 09:18:23 [builder] [2m    $BP_GRADLE_BUILT_MODULE                           the module to find application artifact in[0m
+2021-12-10 09:18:24 [builder] [2m    Creating cache directory /home/cnb/.gradle[0m
+2021-12-10 09:18:24 [builder]   [34mCompiled Application[0m: [33mContributing[0m to layer
+2021-12-10 09:18:24 [builder] [2m    Executing gradlew --no-daemon assemble[0m
+2021-12-10 09:18:24 [builder]       Downloading https://services.gradle.org/distributions/gradle-7.2-bin.zip
+2021-12-10 09:18:46 [builder]       ..........10%...........20%...........30%...........40%...........50%...........60%...........70%...........80%...........90%...........100%
+2021-12-10 09:18:47 [builder]       
+2021-12-10 09:18:47 [builder]       Welcome to Gradle 7.2!
+2021-12-10 09:18:47 [builder]       
+2021-12-10 09:18:47 [builder]       Here are the highlights of this release:
+2021-12-10 09:18:47 [builder]        - Toolchain support for Scala
+2021-12-10 09:18:47 [builder]        - More cache hits when Java source files have platform-specific line endings
+2021-12-10 09:18:47 [builder]        - More resilient remote HTTP build cache behavior
+2021-12-10 09:18:47 [builder]       
+2021-12-10 09:18:47 [builder]       For more details see https://docs.gradle.org/7.2/release-notes.html
+2021-12-10 09:18:47 [builder]       
+2021-12-10 09:18:47 [builder]       To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+2021-12-10 09:18:49 [builder]       Daemon will be stopped at the end of the build 
+2021-12-10 09:20:38 [builder]       > Task :compileKotlin
+2021-12-10 09:20:40 [builder]       > Task :compileJava NO-SOURCE
+2021-12-10 09:20:40 [builder]       > Task :processResources
+2021-12-10 09:20:40 [builder]       > Task :classes
+2021-12-10 09:20:44 [builder]       > Task :bootJarMainClassName
+2021-12-10 09:20:44 [builder]       > Task :bootJar
+2021-12-10 09:20:44 [builder]       > Task :inspectClassesForKotlinIC
+2021-12-10 09:20:44 [builder]       > Task :jar
+2021-12-10 09:20:44 [builder]       > Task :assemble
+2021-12-10 09:20:45 [builder]       
+2021-12-10 09:20:45 [builder]       BUILD SUCCESSFUL in 2m 20s
+2021-12-10 09:20:45 [builder]       6 actionable tasks: 6 executed
+2021-12-10 09:20:47 [builder]   Removing source code
+2021-12-10 09:20:47 [builder] [34m[0m
+2021-12-10 09:20:47 [builder] [34m[1mPaketo Executable JAR Buildpack[0m[34m 6.0.1[0m
+2021-12-10 09:20:47 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/executable-jar[0m
+2021-12-10 09:20:49 [builder]   [34mClass Path[0m: [33mContributing[0m to layer
+2021-12-10 09:20:49 [builder] [2m    Writing env/CLASSPATH.delim[0m
+2021-12-10 09:20:49 [builder] [2m    Writing env/CLASSPATH.prepend[0m
+2021-12-10 09:20:49 [builder]   Process types:
+2021-12-10 09:20:49 [builder]     [36mexecutable-jar[0m: java org.springframework.boot.loader.JarLauncher (direct)
+2021-12-10 09:20:49 [builder]     [36mtask[0m:           java org.springframework.boot.loader.JarLauncher (direct)
+2021-12-10 09:20:49 [builder]     [36mweb[0m:            java org.springframework.boot.loader.JarLauncher (direct)
+2021-12-10 09:20:49 [builder] [34m[0m
+2021-12-10 09:20:49 [builder] [34m[1mPaketo Spring Boot Buildpack[0m[34m 5.1.0[0m
+2021-12-10 09:20:49 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/spring-boot[0m
+2021-12-10 09:20:49 [builder]   Creating slices from layers index
+2021-12-10 09:20:49 [builder] [2m    dependencies[0m
+2021-12-10 09:20:49 [builder] [2m    spring-boot-loader[0m
+2021-12-10 09:20:49 [builder] [2m    snapshot-dependencies[0m
+2021-12-10 09:20:49 [builder] [2m    application[0m
+2021-12-10 09:20:49 [builder]   [34mLaunch Helper[0m: [33mContributing[0m to layer
+2021-12-10 09:20:49 [builder] [2m    Creating /layers/paketo-buildpacks_spring-boot/helper/exec.d/spring-cloud-bindings[0m
+2021-12-10 09:20:49 [builder]   [34mSpring Cloud Bindings 1.8.0[0m: [33mContributing[0m to layer
+2021-12-10 09:20:49 [builder] [2m    [33mDownloading[0m[2m from https://repo.spring.io/release/org/springframework/cloud/spring-cloud-bindings/1.8.0/spring-cloud-bindings-1.8.0.jar[0m
+2021-12-10 09:20:49 [builder] [2m    Verifying checksum[0m
+2021-12-10 09:20:49 [builder] [2m    Copying to /layers/paketo-buildpacks_spring-boot/spring-cloud-bindings[0m
+2021-12-10 09:20:49 [builder]   [34mWeb Application Type[0m: [33mContributing[0m to layer
+2021-12-10 09:20:49 [builder] [2m    Servlet web application detected[0m
+2021-12-10 09:20:49 [builder] [2m    Writing env.launch/BPL_JVM_THREAD_COUNT.default[0m
+2021-12-10 09:20:49 [builder]   4 application slices
+2021-12-10 09:20:49 [builder]   Image labels:
+2021-12-10 09:20:49 [builder]     org.springframework.boot.version
+2021-12-10 09:20:50 ===> EXPORTING
+2021-12-10 09:20:50 [exporter] Adding layer 'paketo-buildpacks/ca-certificates:helper'
+2021-12-10 09:20:50 [exporter] Adding layer 'paketo-buildpacks/bellsoft-liberica:helper'
+2021-12-10 09:20:50 [exporter] Adding layer 'paketo-buildpacks/bellsoft-liberica:java-security-properties'
+2021-12-10 09:20:51 [exporter] Adding layer 'paketo-buildpacks/bellsoft-liberica:jre'
+2021-12-10 09:20:51 [exporter] Adding layer 'paketo-buildpacks/executable-jar:classpath'
+2021-12-10 09:20:51 [exporter] Adding layer 'paketo-buildpacks/spring-boot:helper'
+2021-12-10 09:20:51 [exporter] Adding layer 'paketo-buildpacks/spring-boot:spring-cloud-bindings'
+2021-12-10 09:20:51 [exporter] Adding layer 'paketo-buildpacks/spring-boot:web-application-type'
+2021-12-10 09:20:51 [exporter] Adding 5/5 app layer(s)
+2021-12-10 09:20:51 [exporter] Adding layer 'launcher'
+2021-12-10 09:20:51 [exporter] Adding layer 'config'
+2021-12-10 09:20:51 [exporter] Adding layer 'process-types'
+2021-12-10 09:20:51 [exporter] Adding label 'io.buildpacks.lifecycle.metadata'
+2021-12-10 09:20:51 [exporter] Adding label 'io.buildpacks.build.metadata'
+2021-12-10 09:20:51 [exporter] Adding label 'io.buildpacks.project.metadata'
+2021-12-10 09:20:51 [exporter] Adding label 'org.springframework.boot.version'
+2021-12-10 09:20:51 [exporter] Setting default process type 'web'
+2021-12-10 09:20:51 [exporter] Saving skaffold-boot:latest...
+2021-12-10 09:20:53 [exporter] *** Images (f4aeb9be6a56):
+2021-12-10 09:20:53 [exporter]       skaffold-boot:latest
+2021-12-10 09:20:55 [exporter] Adding cache layer 'paketo-buildpacks/bellsoft-liberica:jdk'
+2021-12-10 09:20:55 [exporter] Adding cache layer 'paketo-buildpacks/syft:syft'
+2021-12-10 09:20:55 [exporter] Adding cache layer 'paketo-buildpacks/gradle:application'
+2021-12-10 09:20:58 [exporter] Adding cache layer 'paketo-buildpacks/gradle:cache'
+2021-12-10 09:21:01 
