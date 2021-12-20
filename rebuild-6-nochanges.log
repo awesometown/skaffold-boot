@@ -1,0 +1,151 @@
+2021-12-20 14:25:46 Generating tags...
+2021-12-20 14:25:46  - skaffold-boot -> 2021-12-20 14:25:46 skaffold-boot:458dac8-dirty
+2021-12-20 14:25:46 Checking cache...
+2021-12-20 14:25:46  - skaffold-boot: 2021-12-20 14:25:46 Not found. Building
+2021-12-20 14:25:46 Starting build...
+2021-12-20 14:25:46 Found [minikube] context, using local docker daemon.
+2021-12-20 14:25:46 Building [skaffold-boot]...
+2021-12-20 14:25:47 base: 2021-12-20 14:25:47 Pulling from paketobuildpacks/builder
+2021-12-20 14:25:47 Digest: sha256:976ad2c0e1ce93fd207331a6ac2fa822a1344f4bf45d36221a37bd0cc06a91b2
+2021-12-20 14:25:47 Status: Image is up to date for paketobuildpacks/builder:base
+2021-12-20 14:25:48 base-cnb: 2021-12-20 14:25:48 Pulling from paketobuildpacks/run
+2021-12-20 14:25:48 Digest: sha256:50c74ebc95c169ea54ee4650d39d3c71d0fc738a3f0ad89b23d646cfd9ea36f2
+2021-12-20 14:25:48 Status: Image is up to date for paketobuildpacks/run:base-cnb
+2021-12-20 14:25:49 0.13.2: 2021-12-20 14:25:49 Pulling from buildpacksio/lifecycle
+2021-12-20 14:25:49 Digest: sha256:b7f2b9f44525ed0e962bdf5be186a266e36adc502b3dc0595dd2aac7f2b92e75
+2021-12-20 14:25:49 Status: Image is up to date for buildpacksio/lifecycle:0.13.2
+2021-12-20 14:25:49 ===> DETECTING
+2021-12-20 14:25:51 [detector] 8 of 19 buildpacks participating
+2021-12-20 14:25:51 [detector] paketo-buildpacks/ca-certificates   3.0.1
+2021-12-20 14:25:51 [detector] paketo-buildpacks/bellsoft-liberica 9.0.1
+2021-12-20 14:25:51 [detector] paketo-buildpacks/syft              1.3.0
+2021-12-20 14:25:51 [detector] paketo-buildpacks/gradle            6.0.1
+2021-12-20 14:25:51 [detector] paketo-buildpacks/executable-jar    6.0.1
+2021-12-20 14:25:51 [detector] paketo-buildpacks/apache-tomcat     7.0.2
+2021-12-20 14:25:51 [detector] paketo-buildpacks/dist-zip          5.0.1
+2021-12-20 14:25:51 [detector] paketo-buildpacks/spring-boot       5.2.0
+2021-12-20 14:25:51 ===> ANALYZING
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/ca-certificates:helper" from app image
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:helper" from app image
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:java-security-properties" from app image
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jre" from app image
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/bellsoft-liberica:jdk" from cache
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/syft:syft" from cache
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/gradle:application" from cache
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/gradle:cache" from cache
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/spring-boot:helper" from app image
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/spring-boot:spring-cloud-bindings" from app image
+2021-12-20 14:25:52 [analyzer] Restoring metadata for "paketo-buildpacks/spring-boot:web-application-type" from app image
+2021-12-20 14:25:52 ===> RESTORING
+2021-12-20 14:25:52 [restorer] Restoring data for "paketo-buildpacks/bellsoft-liberica:jdk" from cache
+2021-12-20 14:25:52 [restorer] Restoring data for "paketo-buildpacks/syft:syft" from cache
+2021-12-20 14:25:52 [restorer] Restoring data for "paketo-buildpacks/gradle:application" from cache
+2021-12-20 14:25:52 [restorer] Restoring data for "paketo-buildpacks/gradle:cache" from cache
+2021-12-20 14:25:54 ===> BUILDING
+2021-12-20 14:25:54 [builder] [34m[0m
+2021-12-20 14:25:54 [builder] [34m[1mPaketo CA Certificates Buildpack[0m[34m 3.0.1[0m
+2021-12-20 14:25:54 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/ca-certificates[0m
+2021-12-20 14:25:54 [builder]   [34mLaunch Helper[0m: [32mReusing[0m cached layer
+2021-12-20 14:25:54 [builder] [34m[0m
+2021-12-20 14:25:54 [builder] [34m[1mPaketo BellSoft Liberica Buildpack[0m[34m 9.0.1[0m
+2021-12-20 14:25:54 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/bellsoft-liberica[0m
+2021-12-20 14:25:54 [builder]   [2mBuild Configuration:[0m
+2021-12-20 14:25:54 [builder] [2m    $BP_JVM_TYPE                 JRE             the JVM type - JDK or JRE[0m
+2021-12-20 14:25:54 [builder] [2m    $BP_JVM_VERSION              11              the Java version[0m
+2021-12-20 14:25:54 [builder]   [2mLaunch Configuration:[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_DEBUG_ENABLED           false           enables Java remote debugging support[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_DEBUG_PORT              8000            configure the remote debugging port[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_DEBUG_SUSPEND           false           configure whether to suspend execution until a debugger has attached[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_HEAP_DUMP_PATH                          write heap dumps on error to this path[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JAVA_NMT_ENABLED        true            enables Java Native Memory Tracking (NMT)[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JAVA_NMT_LEVEL          summary         configure level of NMT, summary or detail[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JFR_ARGS                                configure custom Java Flight Recording (JFR) arguments[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JFR_ENABLED             false           enables Java Flight Recording (JFR)[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JMX_ENABLED             false           enables Java Management Extensions (JMX)[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JMX_PORT                5000            configure the JMX port[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JVM_HEAD_ROOM           0               the headroom in memory calculation[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JVM_LOADED_CLASS_COUNT  35% of classes  the number of loaded classes in memory calculation[0m
+2021-12-20 14:25:54 [builder] [2m    $BPL_JVM_THREAD_COUNT        250             the number of threads in memory calculation[0m
+2021-12-20 14:25:54 [builder] [2m    $JAVA_TOOL_OPTIONS                           the JVM launch flags[0m
+2021-12-20 14:25:54 [builder]   [34mBellSoft Liberica JDK 11.0.13[0m: [32mReusing[0m cached layer
+2021-12-20 14:25:54 [builder]   [34mBellSoft Liberica JRE 11.0.13[0m: [32mReusing[0m cached layer
+2021-12-20 14:25:54 [builder]   [34mLaunch Helper[0m: [32mReusing[0m cached layer
+2021-12-20 14:25:54 [builder]   [34mJava Security Properties[0m: [32mReusing[0m cached layer
+2021-12-20 14:25:54 [builder] [34m[0m
+2021-12-20 14:25:54 [builder] [34m[1mPaketo Syft Buildpack[0m[34m 1.3.0[0m
+2021-12-20 14:25:54 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/syft[0m
+2021-12-20 14:25:54 [builder] [34m[0m
+2021-12-20 14:25:54 [builder] [34m[1mPaketo Gradle Buildpack[0m[34m 6.0.1[0m
+2021-12-20 14:25:54 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/gradle[0m
+2021-12-20 14:25:54 [builder]   [2mBuild Configuration:[0m
+2021-12-20 14:25:54 [builder] [2m    $BP_GRADLE_BUILD_ARGUMENTS  --no-daemon assemble  the arguments to pass to Gradle[0m
+2021-12-20 14:25:54 [builder] [2m    $BP_GRADLE_BUILT_ARTIFACT   build/libs/*.[jw]ar   the built application artifact explicitly.  Supersedes $BP_GRADLE_BUILT_MODULE[0m
+2021-12-20 14:25:54 [builder] [2m    $BP_GRADLE_BUILT_MODULE                           the module to find application artifact in[0m
+2021-12-20 14:25:55 [builder] [2m    Creating cache directory /home/cnb/.gradle[0m
+2021-12-20 14:25:55 [builder]   [34mCompiled Application[0m: [33mContributing[0m to layer
+2021-12-20 14:25:55 [builder] [2m    Executing gradlew --no-daemon assemble[0m
+2021-12-20 14:25:56 [builder]       To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/7.2/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+2021-12-20 14:26:00 [builder]       Daemon will be stopped at the end of the build 
+2021-12-20 14:26:37 [builder]       > Task :compileKotlin
+2021-12-20 14:26:37 [builder]       > Task :compileJava NO-SOURCE
+2021-12-20 14:26:37 [builder]       > Task :processResources
+2021-12-20 14:26:37 [builder]       > Task :classes
+2021-12-20 14:26:38 [builder]       > Task :bootJarMainClassName
+2021-12-20 14:26:40 [builder]       > Task :bootJar
+2021-12-20 14:26:40 [builder]       > Task :inspectClassesForKotlinIC
+2021-12-20 14:26:40 [builder]       > Task :jar
+2021-12-20 14:26:40 [builder]       > Task :assemble
+2021-12-20 14:26:40 [builder]       
+2021-12-20 14:26:40 [builder]       BUILD SUCCESSFUL in 44s
+2021-12-20 14:26:40 [builder]       6 actionable tasks: 6 executed
+2021-12-20 14:26:42 [builder]   Removing source code
+2021-12-20 14:26:42 [builder] [34m[0m
+2021-12-20 14:26:42 [builder] [34m[1mPaketo Executable JAR Buildpack[0m[34m 6.0.1[0m
+2021-12-20 14:26:42 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/executable-jar[0m
+2021-12-20 14:26:43 [builder]   [34mClass Path[0m: [33mContributing[0m to layer
+2021-12-20 14:26:43 [builder] [2m    Writing env/CLASSPATH.delim[0m
+2021-12-20 14:26:43 [builder] [2m    Writing env/CLASSPATH.prepend[0m
+2021-12-20 14:26:43 [builder]   Process types:
+2021-12-20 14:26:43 [builder]     [36mexecutable-jar[0m: java org.springframework.boot.loader.JarLauncher (direct)
+2021-12-20 14:26:43 [builder]     [36mtask[0m:           java org.springframework.boot.loader.JarLauncher (direct)
+2021-12-20 14:26:43 [builder]     [36mweb[0m:            java org.springframework.boot.loader.JarLauncher (direct)
+2021-12-20 14:26:43 [builder] [34m[0m
+2021-12-20 14:26:43 [builder] [34m[1mPaketo Spring Boot Buildpack[0m[34m 5.2.0[0m
+2021-12-20 14:26:43 [builder]   [34;2;3mhttps://github.com/paketo-buildpacks/spring-boot[0m
+2021-12-20 14:26:44 [builder]   Creating slices from layers index
+2021-12-20 14:26:44 [builder] [2m    dependencies[0m
+2021-12-20 14:26:44 [builder] [2m    spring-boot-loader[0m
+2021-12-20 14:26:44 [builder] [2m    snapshot-dependencies[0m
+2021-12-20 14:26:44 [builder] [2m    application[0m
+2021-12-20 14:26:44 [builder]   [34mLaunch Helper[0m: [32mReusing[0m cached layer
+2021-12-20 14:26:44 [builder]   [34mSpring Cloud Bindings 1.8.0[0m: [32mReusing[0m cached layer
+2021-12-20 14:26:44 [builder]   [34mWeb Application Type[0m: [32mReusing[0m cached layer
+2021-12-20 14:26:44 [builder]   4 application slices
+2021-12-20 14:26:44 [builder]   Image labels:
+2021-12-20 14:26:44 [builder]     org.springframework.boot.version
+2021-12-20 14:26:44 ===> EXPORTING
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/ca-certificates:helper'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/bellsoft-liberica:helper'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/bellsoft-liberica:java-security-properties'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/bellsoft-liberica:jre'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/executable-jar:classpath'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/spring-boot:helper'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/spring-boot:spring-cloud-bindings'
+2021-12-20 14:26:45 [exporter] Reusing layer 'paketo-buildpacks/spring-boot:web-application-type'
+2021-12-20 14:26:45 [exporter] Reusing 5/5 app layer(s)
+2021-12-20 14:26:45 [exporter] Reusing layer 'launcher'
+2021-12-20 14:26:45 [exporter] Reusing layer 'config'
+2021-12-20 14:26:45 [exporter] Reusing layer 'process-types'
+2021-12-20 14:26:45 [exporter] Adding label 'io.buildpacks.lifecycle.metadata'
+2021-12-20 14:26:45 [exporter] Adding label 'io.buildpacks.build.metadata'
+2021-12-20 14:26:45 [exporter] Adding label 'io.buildpacks.project.metadata'
+2021-12-20 14:26:45 [exporter] Adding label 'org.springframework.boot.version'
+2021-12-20 14:26:45 [exporter] Setting default process type 'web'
+2021-12-20 14:26:45 [exporter] Saving skaffold-boot:latest...
+2021-12-20 14:26:46 [exporter] *** Images (56df67191eee):
+2021-12-20 14:26:46 [exporter]       skaffold-boot:latest
+2021-12-20 14:26:47 [exporter] Reusing cache layer 'paketo-buildpacks/bellsoft-liberica:jdk'
+2021-12-20 14:26:47 [exporter] Reusing cache layer 'paketo-buildpacks/syft:syft'
+2021-12-20 14:26:48 [exporter] Adding cache layer 'paketo-buildpacks/gradle:application'
+2021-12-20 14:26:51 [exporter] Adding cache layer 'paketo-buildpacks/gradle:cache'
+2021-12-20 14:26:53 
